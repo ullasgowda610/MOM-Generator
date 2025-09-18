@@ -40,7 +40,7 @@ if st.button('Generate MOM'):
      st.error('Text is not generated')
    else:
     with st.spinner('Generating MOM...'):
-      prompt='''Assume you are an expert in creating minuties of metting .User has provided notes of meetingin text format.Using this data create a standarized minuties for the user.
+      prompt=f'''Assume you are an expert in creating minuties of metting .User has provided notes of meetingin text format.Using this data create a standarized minuties for the user.
       Keep the format as mentioned below and use bullet points where ever necessary.
 
       Output must follow word/docx format,strictly in the following manner
@@ -56,7 +56,7 @@ if st.button('Generate MOM'):
       * Any next meeting date that has been discussed
       * 2 to 3 line of summary.
       * Use bullet points where ever necessary or bold important keywords such the context is clear.
-      * Generate the output in such a way that it can be copied to 
+      * Generate the output in such a way that it can be copied and paste in word 
       
        The data provided by user is as follows {user_text}.'''
       
