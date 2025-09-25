@@ -4,5 +4,7 @@
  Using prompt engineering techniques, the model is guided to interpret unstructured text and provide a structured summary in the form of detailed meeting minutes. 
  The objective of this project is to demonstrate how AI can be applied to real-world scenarios by simplifying the process of capturing and documenting key information from different formats.
 
+ Thank You, Ullas Y R
+
  APP LINK : https://mom-generator-bc3hgwgpxdjanaguanpeg3.streamlit.app/
 
